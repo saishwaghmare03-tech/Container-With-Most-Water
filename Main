@@ -1,0 +1,15 @@
+import java.util.Arrays;
+public class Main {
+    public static void main(String[] args) {
+        Solution solver = new Solution();
+        
+        // Define the test input array
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        
+        // maxArea returns an integer value
+        int result = solver.maxArea(height);
+        
+        System.out.println("Height array: " + Arrays.toString(height));
+        System.out.println("Maximum Water Area: " + result);
+    }
+}
